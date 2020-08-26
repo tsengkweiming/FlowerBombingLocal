@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FLW_Kikyou_A
+  m_Shader: {fileID: 4800000, guid: bb76aa00a734714439966c63ac105d22, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnimTex:
+        m_Texture: {fileID: 2800000, guid: fda7365b954aae54e872d8a813ec585c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f176b18a9aa24cf458c3d6152eba50a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AnimTex_AnimStart: 0
+    - _AnimTex_FPS: 5
+    - _AnimTex_T: 0
+    - _Outline: 0.0071
+    - _StopUpdate: 1
+    m_Colors:
+    - _AnimTex_AnimEnd: {r: 60, g: 300, b: 0, a: 0}
+    - _AnimTex_Offset: {r: -3, g: -1.1, b: -0.245, a: 0}
+    - _AnimTex_Scale: {r: 6, g: 7.5, b: 9, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
